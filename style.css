@@ -3,6 +3,6 @@ svg, input {
   display: block;
 }
 
-.bin-count {
+.bin-count, #medianAgeInput, #urbanPopulationRateInput {
   text-align: center;
 }

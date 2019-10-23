@@ -8,12 +8,21 @@
 </head>
 <body>
   <svg 
+    id="medianAge"
     version="1.1"
     baseProfile="full"
     xmlns="http://www.w3.org/2000/svg" >
   </svg>
-  <p class="bin-count">Number of bins: 16</p>
-  <input type="range" min="1" step="1" max="50">
+  <p id="medianAge-bin-count">Number of bins: 16</p>
+  <input id="medianAgeInput" type="range" min="1" step="1" max="50">
+  <svg 
+    id="urbanPopulationRate"
+    version="1.1"
+    baseProfile="full"
+    xmlns="http://www.w3.org/2000/svg" >
+  </svg>
+  <p id="urbanPopulationRate-bin-count">Number of bins: 16</p>
+  <input id="urbanPopulationRateInput"type="range" min="1" step="1" max="50">
   <script src="https://d3js.org/d3.v4.js"></script>
   <script src="regionData.js"></script>
   <script src="app.js"></script>
